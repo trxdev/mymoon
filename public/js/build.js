@@ -187,6 +187,7 @@ process.umask = function() { return 0; };
 },{}],2:[function(require,module,exports){
 my_key=XXXX
 
+<<<<<<< HEAD
 },{}],3:[function(require,module,exports){
 (function (process){
 const callmade = require('/Users/Abdul/Documents/GitHub/mymoon/.env');
@@ -195,3 +196,10 @@ console.log(privateKey);
 
 }).call(this,require('_process'))
 },{"/Users/Abdul/Documents/GitHub/mymoon/.env":2,"_process":1}]},{},[3]);
+=======
+const callmade = require('/js/config.js');
+const privateKey = callmade;
+console.log(privateKey);
+
+},{"/js/config.js":1}]},{},[2]);
+>>>>>>> 553992199fea46011935b517b24286c3b18c279b
