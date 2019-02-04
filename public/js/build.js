@@ -600,10 +600,9 @@ module.exports.parse = parse
 
 }).call(this,require('_process'))
 },{"_process":3,"fs":1,"path":2}],5:[function(require,module,exports){
-(function (process){
-var dotenv = require('dotenv');
-dotenv.load();
-const privateKey = process.env.my_key;
-console.log(privateKey);
+(function (process){console.log(`Your port is ${process.env.PORT}`); // undefined
+const dotenv = require('dotenv');
+dotenv.config();
+console.log(`Your port is ${process.env.PORT}`); // 8626
 }).call(this,require('_process'))
 },{"_process":3,"dotenv":4}]},{},[5]);
