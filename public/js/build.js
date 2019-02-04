@@ -4,8 +4,8 @@ module.exports = mykey;
 
 },{}],2:[function(require,module,exports){
 
-const callmade = require('/Users/Abdul/Documents/GitHub/mymoon/public/js/config.js');
+const callmade = require('/js/config.js');
 const privateKey = callmade;
 console.log(privateKey);
 
-},{"/Users/Abdul/Documents/GitHub/mymoon/public/js/config.js":1}]},{},[2]);
+},{"/js/config.js":1}]},{},[2]);
