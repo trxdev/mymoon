@@ -1,3 +1,4 @@
-//require('dotenv').config();
-const privateKey = my_key;
+
+const callmade = require('src/js/config.js');
+const privateKey = callmade;
 console.log(privateKey);
