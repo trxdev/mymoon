@@ -604,7 +604,7 @@ module.exports.parse = parse
 const dotenv = require('dotenv').config({ path: '.env' });
 console.log(process.env); // 8626                    
 console.log(`Your port is ${process.env.PORT}`); // 8626
-                   const result = process.env.my_key
+                   const result = process.env.my_key;
 console.log(result.parsed); // 8626                    
 }).call(this,require('_process'))
 },{"_process":3,"dotenv":4}]},{},[5]);
