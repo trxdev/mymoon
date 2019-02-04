@@ -601,7 +601,9 @@ module.exports.parse = parse
 }).call(this,require('_process'))
 },{"_process":3,"fs":1,"path":2}],5:[function(require,module,exports){
 (function (process){console.log(`Your port is ${process.env.PORT}`); // undefined
-const dotenv = require('dotenv').load();
-console.log(`Your port is ${process.env.my_key}`); // 8626
+const dotenv = require('dotenv').config({ path: '.env' });
+console.log(process.env); // 8626                    
+console.log(`Your port is ${process.env.PORT}`); // 8626
+console.log(process.env.my_key); // 8626                    
 }).call(this,require('_process'))
 },{"_process":3,"dotenv":4}]},{},[5]);
