@@ -2,8 +2,16 @@
 my_key='hhhh';
 
 },{}],2:[function(require,module,exports){
+<<<<<<< HEAD
 const callmade = require('/Users/Abdul/Documents/GitHub/mymoon/.env');
 
 const privateKey = callmade.my_key;
 console.log(privateKey);
 },{"/Users/Abdul/Documents/GitHub/mymoon/.env":1}]},{},[2]);
+=======
+var dotenv = require('dotenv');
+dotenv.load();
+const privateKey = process.env.my_key;
+console.log(privateKey);
+},{".env":1}]},{},[2]);
+>>>>>>> 80d163c94ea19bd9aebade9e921e20c7322ce98c
